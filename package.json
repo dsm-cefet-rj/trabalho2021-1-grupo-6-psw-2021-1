@@ -1,0 +1,25 @@
+{
+  "name": "trabalho2021-1-grupo-6-psw-2021-1",
+  "version": "1.0.0",
+  "description": "development",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^5.0.2",
+    "jquery": "^3.6.0",
+    "jsdom": "^16.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsm-cefet-rj/trabalho2021-1-grupo-6-psw-2021-1.git"
+  },
+  "author": "Grupo 6 2021.1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dsm-cefet-rj/trabalho2021-1-grupo-6-psw-2021-1/issues"
+  },
+  "homepage": "https://github.com/dsm-cefet-rj/trabalho2021-1-grupo-6-psw-2021-1#readme"
+}
