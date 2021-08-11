@@ -5,7 +5,7 @@
 Instale as dependencias:
 ### `npm install`
 
-### `Pegue a pasta bootstrap do node_modules e jogue pra src`
+Pegue a pasta bootstrap do node_modules e jogue pra src
 
 Rode a aplicação:
 
