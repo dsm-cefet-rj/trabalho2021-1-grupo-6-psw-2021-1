@@ -1,11 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-
-// import Login from "./Login";
-// import Sobre from "./Sobre";
-// import Usuario from "./Usuario";
-
-
 export default class Login extends Component {
   render(){
     return(
