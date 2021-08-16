@@ -1,6 +1,24 @@
 import React, { Component } from 'react';
 
+import ConsultasList from "../Consultas/ConsultasList";
+import ConsultasForm from "../Consultas/ConsultasForm";
 export default class HomePac extends Component {
+
+  constructor(){
+    super();
+    this.state = {
+      cards:[]
+    }
+  }
+
+  createCard(title, text){
+    const newCard = {title, text};
+    const newArrayCards = [...this.state.cards, newCard]
+    const newState = {
+      cards:newArrayCards
+    }
+    this.setState(newState)
+  }
     render(){
       return(
         <div class="container-sm">
@@ -12,31 +30,22 @@ export default class HomePac extends Component {
         <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" type="button" role="tab" aria-selected="false">Monitor de Humor</button>
       </div>
     </div>
-
+    <ConsultasForm createCard={this.createCard.bind(this)}/>
+    
     <div class="list-group">
-        <h3>Consultas agendadas</h3>
-      <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+      <h3>Consultas agendadas</h3>
+      <a href="/#" class="list-group-item list-group-item-action active" aria-current="true">
         <div class="d-flex w-100 justify-content-between">
           <h5 class="mb-1">Psicólogo 01</h5>
           <small>08:00</small>
         </div>
         <p class="mb-1">Segunda-feira</p>
-          <small>Remoto</small>
-          <div class="d-grid gap-2 d-md-block mt-2 mb-1">
-            <button class="btn btn-secondary" type="button">Contato</button>
-          </div>
+        <small>Remoto</small>
+        <div class="d-grid gap-2 d-md-block mt-2 mb-1">
+          <button class="btn btn-secondary" type="button">Contato</button>
+        </div>
       </a>
-      <a href="#" class="list-group-item list-group-item-action">
-          <div class="d-flex w-100 justify-content-between">
-            <h5 class="mb-1">Psicólogo 01</h5>
-            <small>10:00</small>
-          </div>
-          <p class="mb-1">Terça-feira</p>
-          <small>Remoto</small>
-          <div class="d-grid gap-2 d-md-block mt-2 mb-1">
-            <button class="btn btn-secondary" type="button">Contato</button>
-          </div>
-        </a>
+      <ConsultasList cards={this.state.cards}/>
     </div>
     <form class="row g-3">
       <div class="col-sm-3 mb-3">

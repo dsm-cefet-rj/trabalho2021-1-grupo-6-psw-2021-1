@@ -4,7 +4,7 @@ export default class PacientesCard extends Component {
     render(){ 
         return(
           <section> 
-            <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+            <a href="/#" class="list-group-item list-group-item-action" aria-current="true">
 
               <div class="d-flex w-100 justify-content-between">
                 <h5 class="mb-1">Paciente 0{this.props.index}</h5>

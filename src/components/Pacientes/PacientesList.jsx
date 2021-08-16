@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import PacientesCard from '../PacientesCard';
+import PacientesCard from './PacientesCard';
 
 export default class PacientesList extends Component{
     
