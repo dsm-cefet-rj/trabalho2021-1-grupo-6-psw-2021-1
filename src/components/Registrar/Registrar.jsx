@@ -1,47 +1,40 @@
-<!doctype html>
-<html>
+import React, { Component } from 'react';
 
-<head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-
-<body>
-    <script src="../node_modules/jquery/dist/jquery.js"></script>
-    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <div class="container-sm">
+export default class Registrar extends Component {
+    render(){
+      return(
+        <div class="container-sm">
         <p class="h1 text-center">OnPsic</p>
         <p class="h4 text-center">Cadastre suas informações</p>
 
       <form>
         <div class="form-floating mb-3">
-            <input type="text" class="form-control" id="floatingInput" placeholder="Nome">
+            <input type="text" class="form-control" id="floatingInput" placeholder="Nome" />
             <label for="floatingInput">Nome</label>
         </div>
         <div class="form-floating mb-3">
-            <input type="text" class="form-control" id="floatingInput" placeholder="Sobrenome">
+            <input type="text" class="form-control" id="floatingInput" placeholder="Sobrenome" />
             <label for="floatingInput">Sobrenome</label>
         </div>
         <div class="form-floating mb-3">
-            <input type="number" class="form-control" id="floatingInput" placeholder="CPF">
+            <input type="number" class="form-control" id="floatingInput" placeholder="CPF" />
             <label for="floatingInput">CPF</label>
         </div>
         <div class="form-floating mb-3">
-            <input type="email" class="form-control" id="floatingInput" placeholder="exemplo@email.com">
+            <input type="email" class="form-control" id="floatingInput" placeholder="exemplo@email.com" />
             <label for="floatingInput">exemplo@email.com</label>
         </div>
         <div class="form-floating mb-3">
-            <input type="password" class="form-control" id="floatingPassword" placeholder="Senha">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Senha" />
             <label for="floatingPassword">Senha</label>
         </div>
         
         <div class="form-floating mb-3">
-            <input type="password" class="form-control" id="floatingPassword" placeholder="Confirmar senha">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Confirmar senha" />
             <label for="floatingPassword">Confirmar senha</label>
         </div>
         <div class="form-floating mb-3">
-            <input type="text" class="form-control" id="floatingInput" placeholder="Número de Telefone">
+            <input type="text" class="form-control" id="floatingInput" placeholder="Número de Telefone" />
             <label for="floatingInput">Número de Telefone - (00) 12345-6789</label>
         </div>
 
@@ -56,5 +49,7 @@
           <a href="./home_psic.html"><button type="submit" class="btn btn-primary">Entrar</button></a>
       </form>
     </div>
-</body>
-</html>
+    );
+  }
+}
+  
