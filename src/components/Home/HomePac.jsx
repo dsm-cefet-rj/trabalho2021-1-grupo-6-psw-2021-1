@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 import ConsultasList from "../Consultas/ConsultasList";
 import ConsultasForm from "../Consultas/ConsultasForm";
+
+import {Container, Typography } from "@material-ui/core"
 export default class HomePac extends Component {
 
   constructor(){
@@ -21,7 +23,7 @@ export default class HomePac extends Component {
   }
     render(){
       return(
-        <div class="container-sm">
+        <Container component="article" maxWidth="sm">
     <p class="h1 text-center">OnPsic</p>
 
     <div class="d-flex align-items-start">
@@ -111,7 +113,7 @@ export default class HomePac extends Component {
         </div>
       </div>
     </div>
-  </div>
+  </Container>
     );
     }
   }

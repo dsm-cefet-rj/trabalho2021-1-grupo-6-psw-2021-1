@@ -8,7 +8,7 @@ import Sobre from "./components/Sobre";
 import Login from "./components/Login";
 import Senha from "./components/Senha";
 import RegistrarPsic from "./components/Registrar/RegistrarPsic";
-import Registrar from "./components/Registrar";
+import Registrar from "./components/Registrar/Registrar";
 
 const Routes = () => {
    return(
