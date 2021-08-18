@@ -7,7 +7,7 @@ export default class Home extends Component {
         <p class="h1 text-center">OnPsic</p>
         <p class="h4 text-center">A sua plataforma de consulta terapeutica online.</p><br></br><br></br><br></br>
 
-        <div class="d-flex align-items-start">
+        <div class="d-flex justify-content-center">
           <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
             <Link to="/sobre"><button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" type="button" role="tab" aria-selected="true">Sobre nós</button></Link>
             <Link to="/login"><button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" type="button" role="tab" aria-selected="false">Login</button></Link>
