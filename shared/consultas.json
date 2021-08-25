@@ -1,0 +1,14 @@
+{
+    "consultas": [
+      {
+        "nome": "Psicólogo 1",
+        "horario": "7:00",
+        "data": "segunda-feira"
+      },
+      {
+        "nome": "Psicólogo 2",
+        "horario": "8:00",
+        "data": "quarta-feira"
+      }
+    ]
+  }
