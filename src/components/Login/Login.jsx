@@ -18,7 +18,7 @@ export default class Login extends Component {
                     <label for="floatingPassword">Senha</label>
                 </div>
 
-                <button type="submit" class="btn btn-primary">Entrar</button>
+                <button type="submit" class="btn btn-primary" onClick={() => alert('Logado com sucesso!')}>Entrar</button>
                 <Link to="/HomePac"></Link>
                 <Link to="/senha"><small>Esqueceu a senha?</small></Link>
             </form>
