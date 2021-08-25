@@ -4,7 +4,6 @@
 
 Instale as dependencias:
 ### `npm install`
-### `npm install redux`
 
 Pegue a pasta bootstrap do node_modules e jogue pra src
 
