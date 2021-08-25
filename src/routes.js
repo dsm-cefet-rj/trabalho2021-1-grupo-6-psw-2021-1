@@ -9,6 +9,8 @@ import Login from "./components/Login";
 import Senha from "./components/Senha";
 import RegistrarPsic from "./components/Registrar/RegistrarPsic";
 import Registrar from "./components/Registrar/Registrar";
+import HomeCounter from "./components/counter/HomeCounter";
+
 
 const Routes = () => {
    return(
@@ -21,6 +23,7 @@ const Routes = () => {
            <Route component = { Senha }  path="/senha" />
            <Route component = { Registrar }  path="/registrar" />
            <Route component = { RegistrarPsic }  path="/registrar_psic" />
+           <Route component = { HomeCounter }  path="/counter" />
        </BrowserRouter>
    )
 }
