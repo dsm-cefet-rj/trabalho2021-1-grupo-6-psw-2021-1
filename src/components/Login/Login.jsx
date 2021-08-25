@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 export default class Login extends Component {
+
+    
   render(){
     return(
         <div class="container-sm">
@@ -17,6 +19,7 @@ export default class Login extends Component {
                 </div>
 
                 <button type="submit" class="btn btn-primary">Entrar</button>
+                <Link to="/HomePac"></Link>
                 <Link to="/senha"><small>Esqueceu a senha?</small></Link>
             </form>
         </div>

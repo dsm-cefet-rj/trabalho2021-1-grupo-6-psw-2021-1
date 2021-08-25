@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { TextField, Button, FormControl, InputLabel, MenuItem,  Select, makeStyles } from "@material-ui/core";
-
+import { TextField,Button, FormControl, InputLabel, MenuItem,  Select, makeStyles } from "@material-ui/core";
+import { Link} from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
     formControl: {
@@ -152,9 +152,7 @@ onChange={(event) => {
           <MenuItem value={2}>Paciente</MenuItem>
         </Select>
       </FormControl>
-      <Button type="submit" variant="contained" color="primary">
-        Cadastrar
-      </Button>
+      <Link to="/pac"><Button class="nav-link active" type="submit" variant="contained" color="primary" onClick={() => alert('Conta criada com sucesso! ')}>Cadastrar</Button></Link>
       </form>
 
     

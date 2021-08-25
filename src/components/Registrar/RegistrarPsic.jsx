@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link} from 'react-router-dom';
 
 export default class RegistrarPsic extends Component {
     render(){
@@ -34,11 +35,13 @@ export default class RegistrarPsic extends Component {
               <input type="number" class="form-control" aria-label="Valor da consulta" />
               <span class="input-group-text">,00</span>
             </div>
-          
-          <button type="submit" class="btn btn-primary">Cadastrar</button>
-  
+         
+          <Link to="/psic"><button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" type="button" role="tab" aria-selected="true" onClick={() => alert('Conta criada com sucesso! ')}>Cadastrar</button></Link>
+
         </form>
+      
       </div>
+      
     );
     }
   }
