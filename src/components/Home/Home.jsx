@@ -5,7 +5,7 @@ export default class Home extends Component {
       return(
           <div class="container-sm">
         <p class="h1 text-center">OnPsic</p>
-        <p class="h4 text-center">A sua plataforma de consulta terapeutica online.</p><br></br><br></br>
+        <p class="h4 text-center">A sua plataforma de consulta terapeutica online.</p>
       
    <div class="d-flex justify-content-center align-items-start">
      <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
