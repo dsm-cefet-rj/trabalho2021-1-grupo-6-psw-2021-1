@@ -10,8 +10,11 @@ import Senha from "./components/Senha";
 import RegistrarPsic from "./components/Registrar/RegistrarPsic";
 import Registrar from "./components/Registrar/Registrar";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import HomeCounter from "./components/counter/HomeCounter";
 
+=======
+>>>>>>> 43bc8c2b07eebeacd83c90d15684807b51c1b2af
 =======
 >>>>>>> 43bc8c2b07eebeacd83c90d15684807b51c1b2af
 

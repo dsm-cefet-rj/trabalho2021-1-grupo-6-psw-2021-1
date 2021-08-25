@@ -19,7 +19,11 @@ export default class Login extends Component {
                 </div>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <button type="submit" class="btn btn-primary">Entrar</button>
+=======
+                <button type="submit" class="btn btn-primary" onClick={() => alert('Logado com sucesso!')}>Entrar</button>
+>>>>>>> 43bc8c2b07eebeacd83c90d15684807b51c1b2af
 =======
                 <button type="submit" class="btn btn-primary" onClick={() => alert('Logado com sucesso!')}>Entrar</button>
 >>>>>>> 43bc8c2b07eebeacd83c90d15684807b51c1b2af

@@ -5,7 +5,10 @@
   "dependencies": {
     "@material-ui/core": "^4.12.3",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "@reduxjs/toolkit": "^1.6.1",
+=======
+>>>>>>> 43bc8c2b07eebeacd83c90d15684807b51c1b2af
 =======
 >>>>>>> 43bc8c2b07eebeacd83c90d15684807b51c1b2af
     "@testing-library/jest-dom": "^5.11.4",
